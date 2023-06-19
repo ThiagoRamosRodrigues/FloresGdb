@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TELA ADM</title>
+    <link rel="stylesheet" href="loginadm.css">
+    
+</head>
+<body>
+    <nav id="menu-h">
+        <ul>
+            <li><a href="home.html">Início</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <form method="POST" action="conexaoadm.php">
+            <img src="logologinadm.png" alt="">
+            <div style="float:left;">
+                <label for="ADM">Adm:</label>
+                <input type="text" id="login" name="login">
+                <label for="password">Senha:</label>
+                <input type="password" id="senha" name="senha">
+                <span id="error-message" style="color: red;"></span> <!-- Exibe a mensagem de erro -->
+                <button type="submit">Entrar</button>
+            </div>
+            <div style="clear:both;"></div>
+        </form>
+    </div>
+</body>
+</html>

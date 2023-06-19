@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>TELA LOGIN</title>
+    <link rel="stylesheet" href="loginusuario.css">
+</head>
+<body>
+    <nav id="menu-h">
+        <ul>
+            <li><a href="home.html">Início</a></li>
+            <li><a href="loginAdm.html">Administrador</a></li>
+        </ul>
+    </nav>
+    <!-- Criando nosso container -->
+    <div class="container">
+        <!-- Criando nosso formulário dentro do container -->
+        <form method="POST" action="telalogin.php">
+            <!-- Adicionando a nossa logo -->
+            <img src="logologinusuario.png" alt="logo.site">
+            <!-- Representa uma legenda para um item em uma interface de usuário. Ele pode estar associado a um elemento de controle, colocando-o dentro do elemento. Aqui, criamos a legenda "Email" -->
+            <label for="text">Email ou CPF:</label>
+            <!-- Criando a entrada para o email -->
+            <input type="text" id="login" name="login">
+            <!-- Criando a legenda "Senha" -->
+            <label for="password">Senha:</label>
+            <!-- Criando a entrada para a senha -->
+            <input type="password" id="password" name="senha">
+            <!-- Criando nosso 'link' "Esqueceu a senha?" para caso o usuário tenha esquecido a mesma -->
+            <a class="esquecersenha" href="recsenha.html">Esqueceu a senha?</a>
+            <!-- Criando nosso botão "Entrar" -->
+            <button type="submit">Entrar</button>
+            <!-- Criando o botão "Entrar com Google" -->
+            <!-- Criando nosso botão para criação de uma nova conta -->
+            <button class="submit2"> <a id="linkcadastro" href="telaCadastro.html">Criar nova conta</a></button>
+        </form>
+    </div>
+</body>
+</html>

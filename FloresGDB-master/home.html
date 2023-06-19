@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloresGBD</title>
+    
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid">
+   </head>
+   
+   <body>
+
+   <footer>
+       <nav id="menu-h">
+            <form>
+                <div id="carrinho"
+                 ><buttom id="carrinho"></buttom></div>
+            
+            <i class="fa-solid fa-magnifying-glass"></i><br> 
+             </form>
+
+               <ul> 
+                            
+               <li><a href="#"class="product-link" data-product-id="1">Presentes</a></li>              
+               <li><a href="#"class="product-link" data-product-id="2">Cestos</a></li>               
+               <li><a href="#"class="product-link" data-product-id="3">Buquês</a></li> 
+               <li><a href="#"class="product-link" data-product-id="4">Arranjos</a></li>
+               <li><a href="#"class="product-link" data-product-id="5">Tipos de flores</a></li> 
+               <li><input type="text" placeholder= "  Pesquisar "><i class="bi bi-search"></i>
+              <li><a href="payment-page.html"class="product-link" data-product-id="6">Ir para o Carrinho</a></li>
+               <li><a href="payment-page.html" class="carrinho-abrir">
+                  <i class="bi bi-cart"></i>
+                  <span id="product-id"></span>
+                  <span id="cart-counter">0</span> </a>
+                
+
+               <li><a href="login.html">LOGIN</a></li>  
+           </ul>
+           
+       </nav>
+                  <div class="img-container"> 
+                  <img src="Logotelahome.png" alt="Logo">
+                  </div>
+                     <p>Maior rede de flores online de Pernambuco. Simples, rápido e sempre pra hoje.</p> <br>
+       <hr><br>
+            <div class="galery-container">
+            <div class="filho">
+
+            <h2>Conheça nossos produtos</h2><br>
+        <br>  
+  
+
+      
+        <div>  
+        
+          <button class="chatbot-button" id="chatbot-button" onclick="toggleChatbot()">Olá<img src="MASCOTE CHATBOT (1).png" alt=""></button>
+          <div class="chatbot-window hidden" id="chatbot-window">
+           <div class="box-questions">
+             <div class="header"> <img src="MASCOTE CHATBOT (1).png" alt="">
+
+              <p>Olá, como posso ajudar?</p>
+
+              <ul><br>
+              <li><p>1. Ver produtos</p>
+              <li><p>2. Tipos de pagamento</p>
+              <li><p>3. Sugestões de Cuidados: </p>
+              <li><p>4. Descontos e cadastramento</p>
+              </ul>
+
+         </div>
+           <p id="status"></p>
+             <div id="history">
+                                                    
+               </div>
+                <div class="footer">
+                   <input type="text" id="message-input" placeholder="Escolha aqui...">
+                   <button class="btn-submit" id="btn-submit" onclick="sendMessage()">Enviar</button>
+               </div>
+           </div>
+       </div>
+    </div>
+                                            
+    
+                                                                                               
+     <div class="container-cinza">       
+         <div class="neto">
+          
+           <br>                      
+                 <a href="1119_UAE-garden-flower-Bougainvillea_0-large.jpg.webp" class="image"><img src="1119_UAE-garden-flower-Bougainvillea_0-large.jpg.webp" alt=""></a>
+
+                       <ul>
+                        <li id="product-1">Garden</li>
+                           <li>R$100,00</li>
+                           <button class="add-to-cart-btn"onclick="addToCart('product-1')">Comprar</button>  
+                       </ul>
+
+                 <a href="93907_chrysanthemummeaning.jpg.webp"class="image"><img src="93907_chrysanthemummeaning.jpg.webp" alt=""></a> 
+                          <ul>
+                          <li id="product-2">Chrysanth</li>
+                          <li>Chrysanth</li>
+                          <li>R$90,00</li>
+                          <button class="add-to-cart-btn">Comprar</button>
+                           
+                      </ul>
+                      
+                  <a href="amarilis.jpg.webp"class="image"><img src="amarilis.jpg.webp" alt=""></a> 
+                          <ul>
+                          <li id="product-3">Amarillis</li>
+                          <li>R$109,00</li>
+                          <button class="add-to-cart-btn">Comprar</button>
+                          
+                          </ul>
+                  <a href="anthurium-poisoning-768x512.jpg.webp"class="image"><img src="anthurium-poisoning-768x512.jpg.webp" alt=""></a>
+                           <ul>
+                           <li id="product-4">Anthurium</li>
+                           <li>R$128,00</li>
+                           <button class="add-to-cart-btn">Comprar</button>
+                           </ul>
+
+                  <a href="ave-do-paraiso.jpg.webp"class="image"><img src="ave-do-paraiso.jpg.webp" alt=""></a>
+                          <ul>
+                          <li id="product-5">Ave Paraíso</li>  
+                          <li>R$115,00</li>
+                          <button class="add-to-cart-btn">Comprar</button>  
+                          </ul>
+
+                  <a href="ciclame.png.webp"class="image"><img src="ciclame.png.webp" alt=""></a>
+                          <ul>
+                          <li id="product-6">Ciclame</li>
+                          <li>R$133,00</li>
+                          <button class="add-to-cart-btn">Comprar</button>                          
+                          </ul>
+                        
+                  <a href="clivia.jpg.webp"class="image"><img src="clivia.jpg.webp" alt=""></a>
+                          <ul>
+                          <li id="product-7">Clivia</li>                        
+                          <li>R$120,00</li>
+                          <button class="add-to-cart-btn">Comprar</button>                        
+                          </ul>
+
+                  <a href="Heliconia.png.webp"class="image"><img src="Heliconia.png.webp" alt=""></a>
+                          <ul>
+                          <li id="product-8">Helicônia</li>                         
+                          <li>R$150,00</li>
+                          <button class="add-to-cart-btn">Comprar</button>                         
+                          </ul> 
+
+                  <a href="lirio-de-sangue.jpg.webp"class="image"><img src="lirio-de-sangue.jpg.webp" alt=""></a>
+                           <ul>
+                           <li id="product-9">Lírio de sangue</li>
+                           <li>R$160,00</li>
+                           <button class="add-to-cart-btn">Comprar</button>
+                           </ul>
+
+                  <a href="orquidea.jpeg.webp"class="image"><img src="orquidea.jpeg.webp" alt=""></a>
+                          <ul>
+                          <li id="product-10">Orquídea</li>
+                          <li>R$170,00</li>
+                          <button class="add-to-cart-btn">Comprar</button>
+                            </ul> 
+                     
+                            <br>
+                   
+                          </div>
+                
+                          <br>
+            
+                        </div>
+          
+                      </div>   
+      
+                    </div>
+    
+                    <br>
+
+       
+                  </div>
+                <footer>
+                  <script src="script.js"></script>
+                </footer>
+                  <br>
+
+                  <hr>
+           
+                   
+                  <p><em> Confira as cidades atendidas<br>
+                  Termos de uso • Devoluções e reembolso • SAC<br>
+                Política de privacidade • Política de cookies • Corporativo • Telefone</em></p>
+     
+              </footer>
+
+            </body>
+   
+
+            </html>

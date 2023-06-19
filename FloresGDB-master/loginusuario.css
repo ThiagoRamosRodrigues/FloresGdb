@@ -1,0 +1,177 @@
+ body {
+            /* Fundo para a página */
+            background-image: url("fundologinusuario.jpeg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* Fonte para a página */
+            font-family: "Open Sans", "sans-serif";
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #menu-h {
+            border-radius: 5px;
+            backdrop-filter: blur(3px);
+        }
+
+        #menu-h ul {
+            max-width: 1880px;
+            list-style: none;
+            padding: 0;
+            margin-top: 0;
+        }
+
+        #menu-h ul li {
+            display: inline;
+        }
+
+        #menu-h ul li a {
+            color: #FFF;
+            padding: 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        #menu-h ul li a:hover {
+            background-color: #59958C;
+        }
+
+        #menu-h ul li:last-child a:hover {
+            float: right;
+            background-color: #032A5C;
+        }
+
+        #menu-h li:last-child a {
+            float: right;
+            background-color: #032A5C;
+        }
+
+        #menu-h form {
+            color: #FFF;
+            padding: 10px;
+            display: inline-flex;
+            text-decoration: none;
+        }
+
+        .container {
+            /* Largura máxima para o conteúdo responsivo */
+            max-width: 400px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 50px;
+            /* Cor da caixa */
+            background-color: #fff;
+            /* Borda circular */
+            border-radius: 10px;
+            /* Espaçamento interno */
+            padding: 20px;
+        }
+
+        img {
+            /* Centralizando a imagem */
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        label {
+            /* Definindo tamanho da fonte */
+            font-size: 16px;
+            /* Definindo a distância dos botões */
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            background-color: #FAF5F3;
+            /* Ocupando a largura disponível */
+            width: 100%;
+            /* Espaçamento interno */
+            padding: 10px;
+            /* Bordas em formato circular */
+            border-radius: 5px;
+            /* Deixando a borda transparente */
+            border: none;
+            /* Definindo a distância para os botões */
+            margin-bottom: 20px;
+            /* Quando clicado, ficará com a caixa dessa cor abaixo */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        button[type="submit"],
+        button[type="submit2"] {
+            /* Ocupando toda a largura */
+            width: 100%;
+            /* Cor do botão */
+            background-color: #032A5C;
+            /* Cor da letra */
+            color: #FFF;
+            /* Espaçamento interno */
+            padding: 10px;
+            /* Bordas em formato circular */
+            border-radius: 5px;
+            /* Deixando a borda transparente */
+            border: none;
+            /* Definindo a distância dos botões */
+            margin-bottom: 20px;
+            /* Cursor especifica o cursor do mouse mostrado quando o ponteiro do mouse está sobre um elemento. */
+            cursor: pointer;
+            /* Quando clicado, ficará com a caixa dessa cor abaixo */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .esquecersenha {
+            /* A distância do bloco acima */
+            margin-top: -9px;
+            /* O elemento block sempre começa em uma nova linha e se expande para a esquerda e direita o tanto quanto for possível. */
+            display: block;
+            /* Deixando o texto alinhado à direita */
+            text-align: right;
+            /* Cor da fonte */
+            color: black;
+            /* Tirando sublinhamento do nome "Esqueceu a senha" */
+            text-decoration: none;
+            /* Tamanho da fonte */
+            font-size: 12px;
+        }
+
+        .linkadm {
+            /* Cor da fonte */
+            color: #fff;
+            /* Tirando sublinhamento do nome "Administrador" */
+            text-decoration: none;
+        }
+        .submit2{
+
+         /* Tirando sublinhamento do nome "Criar nova conta" */
+         text-decoration: none;
+          /* Ocupando toda a largura */
+          width: 100%;
+          /* Cor do botão */
+          background-color: #032A5C;
+          /* Cor da letra */
+          color: #FFF;
+          /* Espaçamento interno */
+          padding: 10px;
+          /* Bordas em formato circular */
+          border-radius: 5px;
+          /* Deixando a borda transparente */
+          border: none;
+          /* Definindo a distância dos botões */
+          margin-bottom: 20px;
+          /* Cursor especifica o cursor do mouse mostrado quando o ponteiro do mouse está sobre um elemento. */
+          cursor: pointer;
+          /* Quando clicado, ficará com a caixa dessa cor abaixo */
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .submit2 a{
+            /* Cor da fonte */
+            color: #fff;
+            /* Tirando sublinhamento do nome "Administrador" */
+            text-decoration: none;
+
+        }

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-image: url("fundorecsenha.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Open Sans", "sans-serif";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu-h{
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    }
+    #menu-h ul {
+    max-width: 1880px;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    }
+    #menu-h ul li {
+    display: inline;
+    }
+    #menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;    
+    }
+    #menu-h ul li a:hover {
+    background-color: #59958C;  
+    }
+    #menu-h ul li:last-child a:hover {
+    float: right;
+    background-color: #032A5C;
+    }
+    #menu-h li:last-child a{
+    float: right;
+    background-color: #032A5C;
+    
+    }
+    #menu-h form{
+    color: #ffffff99;
+    padding: 10px;
+    display: inline-flex;
+    text-decoration: none;
+    }
+
+
+.container {
+    margin: 100px 20px;
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+img {
+    /*alinhando imagem ao centro da form*/
+    text-align: center;
+}
+
+label {
+    /*definindo tamanho da fonte*/
+    font-size: 16px;
+    /*definindo a distancia dos botões*/
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="tel"] , input[type="email"] {
+    background-color: #FAF5F3;
+    /*ocupando de largura*/
+    width: 95%;
+    /*Uma propriedade padding define uma distância entre o conteúdo de um elemento e suas bordas. É um atalho que evita definir uma distância para cada lado separadamente ( padding-top, padding-right, padding-bottom, padding-left).*/
+    padding: 10px;
+    /*bordas em fotmato circular*/
+    border-radius: 5px;
+    /* deixando a borda transpatente */
+    border: none;
+    /*definindo a distancia para os botões*/
+    margin-bottom: 20px;
+    /*quando vc clicar vai ficar selecionado com a caixa dessa cor abaixo*/
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+button[type="submit"] {
+    /*ocupando toda a largura*/
+    width: 100%;
+    /* cor da barra */
+    background-color: /*#F87599*/ #032A5C;
+    /*cor da letra */
+    color: #FFF;
+    /*Uma propriedade padding define uma distância entre o conteúdo de um elemento e suas bordas. É um atalho que evita definir uma distância para cada lado separadamente ( padding-top, padding-right, padding-bottom, padding-left).*/
+    padding: 10px;
+    /*bordas em fotmato circular*/
+    border-radius: 5px;
+    /*deixando a borda transpatente */
+    border: none;
+    /*definindo a distancia dos botões*/
+    margin-bottom: 20px;
+    /**/
+    cursor: pointer;
+    /*quando vc clicar vai ficar selecionado com a caixa dessa cor abaixo*/
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}

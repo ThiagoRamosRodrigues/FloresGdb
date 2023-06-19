@@ -1,0 +1,128 @@
+body {
+    /* Fundo para a página */
+    background-image: url("fundocadastro.jpeg");
+    background-attachment: fixed;
+    background-size: cover; /* alterado para cover */
+    background-repeat: no-repeat;
+    /* Fonte para a página */
+    font-family: "Open Sans", "sans-serif";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu-h {
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+}
+
+#menu-h ul {
+    max-width: 1880px;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-h ul li a:hover {
+    background-color: #59958C;
+}
+
+#menu-h ul li:last-child a:hover {
+    float: right;
+    background-color: #032A5C;
+}
+
+#menu-h li:last-child a {
+    float: right;
+    background-color: #032A5C;
+}
+
+#menu-h form {
+    color: #FFF;
+    padding: 10px;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.container {
+    margin: 100px auto;
+     /* Margem adicionada para centralizar o conteúdo na página */
+     float: left;
+     margin-left: 20px;
+     margin-top: 50px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    background-color: #FAF5F3;
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #032A5C;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    margin-top: -9px;
+    display: block;
+    text-align: right;
+    color: #253C25;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+    width: 100%;
+    height: 0%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}

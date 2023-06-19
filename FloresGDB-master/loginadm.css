@@ -1,0 +1,136 @@
+ /* Estilos CSS adicionais para tornar o site responsivo */
+ body {
+    background-image: url("fundologinadm.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Open Sans", "sans-serif";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu-h {
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+}
+
+#menu-h ul {
+    max-width: 1880px;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li:first-child {
+    margin-right: auto;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-h ul li a:hover {
+    background-color: #59958C;
+}
+
+.container {
+    margin: 100px 20px;
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #faf5f3;
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+button[type="submit"] {
+   /*ocupando toda a largura*/
+   width: 100%;
+   /* cor da barra */
+   background-color: /*#F87599*/ #032A5C;
+   /*cor da letra */
+   color: pink;
+   /*Uma propriedade padding define uma distância entre o conteúdo de um elemento e suas bordas. É um atalho que evita definir uma distância para cada lado separadamente ( padding-top, padding-right, padding-bottom, padding-left).*/
+   padding: 10px;
+   /*bordas em fotmato circular*/
+   border-radius: 5px;
+   /*deixando a borda transpatente */
+   border: none;
+   /*definindo a distancia dos botões*/
+   margin-bottom: 20px;
+   /**/
+   cursor: pointer;
+   /*quando vc clicar vai ficar selecionado com a caixa dessa cor abaixo*/
+   box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.esqueceusenha{
+    margin-top: -9px;
+    display: block;
+    text-align: right;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: right;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    height: 0%;
+    text-align: center;
+}
+
+/* Estilos adicionais para tornar o site responsivo */
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 20px;
+        width: auto;
+    }
+    #menu-h ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #menu-h ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    #menu-h ul li:first-child {
+        margin-right: 0;
+    }
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
